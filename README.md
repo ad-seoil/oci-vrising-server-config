@@ -16,7 +16,7 @@ git clone [https://github.com/ad-seoil/oci-vrising-server-config.git](https://gi
 docker-compose up -d
 ```
 
-##🔍 Troubleshooting
+## 🔍 Troubleshooting
 First Assertion Failed: GetBestRoute2 failed with result 50
 ```
 sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1
