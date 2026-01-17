@@ -1,0 +1,13 @@
+services:
+  vrising:
+    image: tsxcloud/vrising-ntsync
+    container_name: vrising
+    restart: unless-stopped
+    ports:
+      - "9876:9876/udp"
+      - "9877:9877/udp"
+    volumes:
+      - ./data:/mnt/vrising/data
+      - ./server:/mnt/vrising/server
+    environment:
+      - TZ=Asia/Tokyo

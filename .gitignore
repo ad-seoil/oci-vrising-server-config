@@ -1,0 +1,25 @@
+# --- Virtual Rising Server Git Ignore Rules ---
+
+# 1. Server Binaries (Already in your 'server' folder)
+server/
+
+# 2. Game Saves (Binary files, too large)
+data/Saves/
+
+# 3. Logs and Temporary files
+data/logs/
+*.log
+
+# 4. Sensitive Configuration (CRITICAL)
+# Ignore all settings first for security
+data/Settings/*.json
+data/Settings/*.txt
+data/Settings/*.rc
+data/Settings/v4/
+
+# 5. OS junk files
+.DS_Store
+Thumbs.db
+
+# [Exception] But allow this specific file for the portfolio
+!data/Settings/ServerGameSettings.json
