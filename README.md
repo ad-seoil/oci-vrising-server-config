@@ -1,6 +1,6 @@
 # V Rising Server Infrastructure on OCI
 
-Oracle Cloud(OCI) 環境で Dockerを利用して構築したV Rising専用サーバー設定理REPOSITORYです。
+This project provides a Docker-based dedicated server setup for 'V Rising', optimized for Oracle Cloud Infrastructure (OCI) ARM64 instances.
 
 ## 🛠 Tech Stack
 - **Environment:** Oracle Cloud Infrastructure (Ubuntu)
