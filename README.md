@@ -43,8 +43,8 @@ sudo vi /home/ubuntu/vrising/data/Settings/ServerHostSettings.json
 "Secure": true, -> "Secure": false,
 ```
 ->
-IPv6 강제 닫기
-Secure: False: 스팀 인증 서버와의 통신 과정(핸드셰이크)에서 발생하는 네트워크 병목과 경로 오류를 제거했습니다. 덕분에 클라이언트의 패킷이 중간 단계 없이 서버로 직통(Direct)
+IPv6 Force Disable (Secure: False): 
+This eliminates network bottlenecks and routing errors that occur during the handshake process with Steam authentication servers. As a result, client packets bypass intermediate steps and establish a direct connection to the server.
 
 4. Assertion Failed: GetBestRoute2 failed with result 50
 ```
